@@ -37,7 +37,11 @@ git remote -v
 
 The remote must point to HAU-6ADET and your own M1A0 repository. This activity repo is separate from your student workspace, which holds notes and planning. Do not clone the teacher repository or write this program in the workspace instead.
 
-You need Git and Dart 3.12 or later for local work. Follow the class setup instructions if either is missing. If your instructor enables Codespaces, this template includes a Dart development-container configuration. Local Dart checks have been verified; the Codespaces launch itself still needs a class setup check.
+You need Git and Dart 3.11.5 or later (below 4.0) for local work. Follow the class setup instructions if either is missing. If your instructor enables Codespaces, this template includes a Dart development-container configuration. Local Dart checks have been verified; the Codespaces launch itself still needs a class setup check.
+
+### If you cloned before the Dart 3.11.5 update
+
+In your existing activity folder, change the SDK line under environment in pubspec.yaml to `sdk: '>=3.11.5 <4.0.0'`. Save the file and run `dart pub get` to refresh pubspec.lock. Commit both files with your activity changes so GitHub checks use the same dependencies.
 
 ## 3. Complete Hello World
 
@@ -74,7 +78,7 @@ Review your changes before committing. Only the activity files belong here; neve
 
 ```sh
 git status
-git add bin/hello.dart student.json README.md pubspec.lock
+git add bin/hello.dart student.json README.md pubspec.yaml pubspec.lock
 git commit -m "Complete M1A0 Hello World"
 git push
 ```
