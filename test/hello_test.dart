@@ -32,6 +32,8 @@ void main() {
       'studentEmail',
       'classCode',
       'githubAccount',
+      'room',
+      'pcNumber',
     ]) {
       test('$field is filled in', () {
         final value = info[field];

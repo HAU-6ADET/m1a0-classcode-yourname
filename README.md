@@ -63,7 +63,7 @@ The comma, capital letters and exclamation mark matter. Run the program:
 dart run bin/hello.dart
 ```
 
-In your private copy, fill in student.json with your name, student number, school email, class code and GitHub username. Use the same verified identity for the course. Keep all values as text, including the student number and class code.
+In your private copy, fill in student.json with your name, student number, school email, class code and GitHub username. Use the same verified identity for the course. Keep all values as text, including the student number and class code. Enter the lab room in `room` and the computer number printed on your station in `pcNumber`. Use text values such as `"MGN-202"` and `"07"`. Both fields are required by the tests.
 
 ## 4. Check and save your work
 
