@@ -37,7 +37,3 @@ The first line should show your branch. The fetch and push URLs should point to 
 Use VS Code **Source Control** to commit and push on the lab computer. Check your new commit on GitHub before submitting its URL. At the end of class, sign out of GitHub in VS Code and the browser, close the lab window, and type `exit` in the launcher terminal. Your local files remain in the work folder.
 
 Continue with the [activity instructions](README.md).
-
-### If you cloned before the Dart 3.11.5 update
-
-In your existing activity folder, change the SDK line under environment in pubspec.yaml to `sdk: '>=3.11.5 <4.0.0'`. Save the file and run `dart pub get` to refresh pubspec.lock. Commit both files with your activity changes so GitHub checks use the same dependencies.
