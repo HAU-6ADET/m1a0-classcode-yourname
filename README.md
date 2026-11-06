@@ -78,7 +78,7 @@ Review your changes before committing. Only the activity files belong here; neve
 
 ```sh
 git status
-git add bin/hello.dart student.json README.md pubspec.yaml pubspec.lock AI-USAGE.md
+git add bin/hello.dart student.json README.md pubspec.yaml pubspec.lock SOURCES-AND-ASSISTANCE.md
 git commit -m "Complete M1A0 Hello World"
 git push
 ```
@@ -130,11 +130,11 @@ Submit the commit page, rather than the repository home page, a branch link, or 
 
 The Canvas assignment, deadline and points will be announced in your class. This public template does not create a Canvas assignment or set a score. The current week-one route is a direct Canvas URL submission; you do not need to submit again through Course Platform.
 
-## AI and other assistance
+## Sources and assistance
 
 Follow the rules in the activity brief and the instructor's AI policy. Use permitted help to understand setup, syntax and errors, then test and explain your own submission. Ask the instructor first if permission is unclear. Never share credentials, personal information or another student's private work with a tool.
 
-Complete [AI-USAGE.md](AI-USAGE.md) in your private copy. Describe the help you used and credit any applicable sources. Commit the file with your activity.
+Complete [SOURCES-AND-ASSISTANCE.md](SOURCES-AND-ASSISTANCE.md) in your private copy. Describe the help you used and credit any applicable sources. Commit the file with your activity.
 
 ## If something fails
 
