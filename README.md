@@ -78,7 +78,7 @@ Review your changes before committing. Only the activity files belong here; neve
 
 ```sh
 git status
-git add bin/hello.dart student.json README.md pubspec.yaml pubspec.lock
+git add bin/hello.dart student.json README.md pubspec.yaml pubspec.lock AI-USAGE.md
 git commit -m "Complete M1A0 Hello World"
 git push
 ```
@@ -132,9 +132,9 @@ The Canvas assignment, deadline and points will be announced in your class. This
 
 ## AI and other assistance
 
-Follow the rules in the activity brief and the instructor's AI policy. Use permitted help to understand setup, syntax and errors, then test and explain your own submission. Disclose the tool and how it helped in the section below. Ask the instructor first if permission is unclear. Never share credentials, personal information or another student's private work with a tool.
+Follow the rules in the activity brief and the instructor's AI policy. Use permitted help to understand setup, syntax and errors, then test and explain your own submission. Ask the instructor first if permission is unclear. Never share credentials, personal information or another student's private work with a tool.
 
-In your private copy, replace this sentence with “No AI assistance used” or a short description of the tool, what it helped with, and what you kept or changed. Credit any other code or references you reuse.
+Complete [AI-USAGE.md](AI-USAGE.md) in your private copy. Describe the help you used and credit any applicable sources. Commit the file with your activity.
 
 ## If something fails
 
